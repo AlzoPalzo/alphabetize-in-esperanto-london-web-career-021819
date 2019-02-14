@@ -8,3 +8,5 @@ def alphabetize(arr)
   end
   puts(esperanto_hash)
 end
+
+alphabetize([])
