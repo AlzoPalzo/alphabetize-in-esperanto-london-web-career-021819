@@ -5,6 +5,6 @@ def alphabetize(arr)
   esperanto_hash ={}
   esp_array.each_with_index do |character, index|
     esperanto_hash[character] = nums[index]
-
-
+  end
+  puts(esperanto_hash)
 end
