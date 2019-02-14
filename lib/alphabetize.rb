@@ -1,5 +1,5 @@
 def alphabetize(arr)
-  esperanto = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz "
+  esperanto = " abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   esp_array = esperanto.split(//)
   esperanto_hash ={}
   esp_array.each_with_index do |character, index|
