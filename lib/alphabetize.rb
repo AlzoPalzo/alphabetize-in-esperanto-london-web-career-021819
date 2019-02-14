@@ -4,3 +4,4 @@ def alphabetize(arr)
 
   puts(esp_array)
 end
+alphabetize([])
