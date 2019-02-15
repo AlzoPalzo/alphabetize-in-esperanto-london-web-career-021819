@@ -1,11 +1,8 @@
 def alphabetize(arr)
-  esperanto = " abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
-  esp_array = esperanto.split(//)
-  esperanto_hash ={}
-  esp_array.each_with_index do |character, index|
-    esperanto_hash[character] = index + 10
+  esperanto = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  arr.sort_by do |string|
+    string.split(//).map do |character|
+      esperanto.index(character)
+    end
   end
-  puts(esperanto_hash)
 end
-
-alphabetize([])
